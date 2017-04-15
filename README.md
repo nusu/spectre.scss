@@ -3,6 +3,14 @@ Spectre.css is a lightweight, responsive and modern CSS framework for faster and
 
 This sass version converts less to sass for better integration with your sass project and allows you to use sass mixins and @extends to create, for example, additional buttons, labels etc.
 
+### Usage
+
+Simply add your main sass file this
+----------
+
+    @import 'spectre'
+
+
 ### Scope
 This is a minimual less->sass conversion. 
 
