@@ -7,9 +7,11 @@ This sass version converts less to sass for better integration with your sass pr
 
 Simply add your main sass file this
 
-----------
-
-    @import 'spectre'
+```scss
+@import "spectre";
+@import "spectre-icons";
+@import "spectre-exp";
+```
 
 
 ### Scope
