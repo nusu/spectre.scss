@@ -3,6 +3,26 @@ Spectre.css is a lightweight, responsive and modern CSS framework for faster and
 
 This sass version converts less to sass for better integration with your sass project and allows you to use sass mixins and @extends to create, for example, additional buttons, labels etc.
 
+### Install
+Spectre.scss can be installed from:
+npm
+
+    npm install spectre.scss
+
+bower
+
+    bower install spectre.scss
+
+or manually you can clone this repository
+
+### Where is normal css files?
+In order to get processed css files first you need to run
+
+	npm install
+    gulp
+
+than gulp will process the scss files to dist/ folder
+
 ### Usage
 
 Simply add your main sass file this
