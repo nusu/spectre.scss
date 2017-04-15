@@ -22,7 +22,7 @@ In order to get processed css files first you need to run
 	npm install
     gulp
 
-than gulp will process the scss files to dist/ folder
+gulp will process the scss files to dist/ folder
 
 ### Usage
 
