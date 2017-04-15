@@ -6,6 +6,7 @@ This sass version converts less to sass for better integration with your sass pr
 ### Usage
 
 Simply add your main sass file this
+
 ----------
 
     @import 'spectre'
