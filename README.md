@@ -5,6 +5,7 @@ This sass version converts less to sass for better integration with your sass pr
 
 ### Install
 Spectre.scss can be installed from:
+
 npm
 
     npm install spectre.scss
