@@ -9,7 +9,7 @@
 
 // Component focus shadow
 @mixin control-shadow($color: $primary-color) {
-  box-shadow: 0 0 0 .2rem fade-in($color, .15);
+  box-shadow: 0 0 0 .2rem rgba($color, .15);
 }
 
 // Component transition
@@ -19,7 +19,7 @@
 
 // Toast variant
 @mixin toast-variant($color: $dark-color) {
-  background: fade-in($color, .90);
+  background: rgba($color, .90);
   border-color: $color;
 }
 
@@ -38,5 +38,5 @@
 }
 
 @mixin shadow-variant($offset) {
-  box-shadow: 0 $offset ($offset+.1rem)*2 fade-in($dark-color, .30);
+  box-shadow: 0 $offset ($offset+.1rem)*2 rgba($dark-color, .30);
 }
