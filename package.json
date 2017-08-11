@@ -1,6 +1,6 @@
 {
   "name": "spectre.scss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "port of spectre.css to sass",
   "main": "_spectre.scss",
   "scripts": {
