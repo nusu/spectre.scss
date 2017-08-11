@@ -44,7 +44,7 @@ $parallax-offset-z: 10rem;
     left: 0;
     position: absolute;
     text-align: center;
-    text-shadow: 0 0 3rem fade-in($dark-color, .95);
+    text-shadow: 0 0 3rem rgba($dark-color, .95);
     top: 0;
     transform: translateZ($parallax-offset-z);
     transition: all .4s ease;

@@ -19,7 +19,7 @@
     z-index: $zindex-4;
 
     .modal-overlay {
-      background: fade-in($dark-color, .50);
+      background: rgba($dark-color, .50);
       bottom: 0;
       cursor: default;
       display: block;
